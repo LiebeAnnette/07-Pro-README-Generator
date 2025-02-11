@@ -35,7 +35,7 @@ This project is licensed under the ${license} license.`;
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   
-return `# ${data.title}
+return `# Title
 ${data.title}
 
 ${renderLicenseBadge(data.license)}
